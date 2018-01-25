@@ -12,12 +12,23 @@
     
         for (var i = 1; i <= 20; i++) {
             console.log("for: " + i);
+            if (i > 5) {
+                console.log("hi");
+            } else {
+                console.log("bye");
+            }
         }
 
         var y = 1;
 
         while (y <= 20) {
             console.log("while: " + y);
+             if (y <= 5) {
+                console.log("BYE");
+            } else if (y > 5) {
+                console.log("HI");
+            }
+
             y++;
         }
 
